@@ -1,10 +1,10 @@
 ## CS643-PA2
 
 ###Link For Github
-`https://github.com/hkstone14/CS643-PA2`
+https://github.com/hkstone14/CS643-PA2
 
 ###Link For DockerHub
-`https://hub.docker.com/r/hkstone14/harikrushna-patel-cs643`
+https://hub.docker.com/r/hkstone14/harikrushna-patel-cs643
 
 ###Setup EMR Cluster
 <ol>
