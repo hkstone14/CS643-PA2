@@ -29,13 +29,13 @@ EMR role:EMR_DefaultRole <br/>
 </li>
 </ol>
 
-###Setup S3 Bucket
+### Setup S3 Bucket
 <ol>
 <li>Create an S3 Bucket</li>
 <li>Load in your csv files for the training dataset, and the validation dataset</li>
 </ol>
 
-###Running ML Model
+### Running ML Model
 <ol>
 <li>After your logged into the master node, from the previous configuration steps, install both docker and git by the running the following:
 <ol>
