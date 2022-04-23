@@ -1,12 +1,12 @@
 ## CS643-PA2
 
-###Link For Github
+### Link For Github
 https://github.com/hkstone14/CS643-PA2
 
-###Link For DockerHub
+### Link For DockerHub
 https://hub.docker.com/r/hkstone14/harikrushna-patel-cs643
 
-###Setup EMR Cluster
+### Setup EMR Cluster
 <ol>
 <li>Navigate to Amazon EMR: https://console.aws.amazon.com/elasticmapreduce/home?region=us-east-1</li>
 <li>Create Cluster</li>
