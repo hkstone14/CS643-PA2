@@ -7,8 +7,6 @@ from pyspark.sql import *
 
 VALIDATION_DATASET = "ValidationDataset.csv"
 
-PIPELINE_PATH = "CS643-njit-spark-ml-model"
-
 
 if __name__ == '__main__':
     spark = SparkSession\
@@ -24,7 +22,7 @@ if __name__ == '__main__':
 
     data_frame = data_frame.withColumnRenamed('""""quality"""""', "quality")
 
-    pipeline = PipelineModel.load(PIPELINE_PATH)
+    pipeline = PipelineModel.load("ta222-njit-spark-ml-model")
 
     predictions = pipeline.transform(data_frame)
 

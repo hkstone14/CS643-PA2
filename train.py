@@ -8,7 +8,6 @@ from pyspark.sql.functions import round
 from pyspark.sql import *
 
 
-PIPELINE_PATH = "CS643-njit-spark-ml-model"
 
 TRAINING_DATASET = "TrainingDataset.csv"
 
@@ -47,6 +46,6 @@ if __name__ == '__main__':
 
     f1_score = f1_evaluator.evaluate(predictions)
 
-    model.write().overwrite().save(PIPELINE_PATH)
+    model.write().overwrite().save("ta222-njit-spark-ml-model")
 
     print(f"F1 Score is: {f1_score * 100}%")
