@@ -7,9 +7,10 @@ from pyspark.ml.feature import VectorAssembler
 from pyspark.sql.functions import round
 from pyspark.sql import *
 
-
-
 TRAINING_DATASET = "TrainingDataset.csv"
+
+PIPELINE_PATH = "task-assignment-222-njit-spark-ml-model"
+
 
 if __name__ == '__main__':
     spark = SparkSession\
@@ -46,6 +47,6 @@ if __name__ == '__main__':
 
     f1_score = f1_evaluator.evaluate(predictions)
 
-    model.write().overwrite().save("ta222-njit-spark-ml-model")
+    model.write().overwrite().save(PIPELINE_PATH)
 
     print(f"F1 Score is: {f1_score * 100}%")
