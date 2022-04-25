@@ -7,7 +7,7 @@ from pyspark.sql import *
 
 VALIDATION_DATASET = "ValidationDataset.csv"
 
-PIPELINE_PATH = "CS643-njit-spark-ml-model"
+PIPELINE_PATH = "task-assignment-222-njit-spark-ml-model"
 
 
 if __name__ == '__main__':
